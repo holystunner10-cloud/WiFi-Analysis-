@@ -1,0 +1,7 @@
+{
+  "name": "WiFi Analyzer",
+  "description": "Comprehensive Wi-Fi connection analyzer, channel spectrum visualizer, signal meter, and network diagnostics tool.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
