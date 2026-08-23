@@ -22,6 +22,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "WiFi Analyzer"
+rootProject.name = "Holy Stunner PC"
 
 include(":app")

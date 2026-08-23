@@ -2,8 +2,7 @@ package com.example
 
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onRoot
-import com.example.data.model.SignalQuality
-import com.example.ui.components.SignalGauge
+import com.example.ui.components.DesktopWidgets
 import com.example.ui.theme.MyApplicationTheme
 import com.github.takahirom.roborazzi.RobolectricDeviceQualifiers
 import com.github.takahirom.roborazzi.captureRoboImage
@@ -22,18 +21,19 @@ class GreetingScreenshotTest {
   @get:Rule val composeTestRule = createComposeRule()
 
   @Test
-  fun greeting_screenshot() {
+  fun desktop_widgets_screenshot() {
     composeTestRule.setContent {
       MyApplicationTheme {
-        SignalGauge(
-          rssi = -55,
-          percentage = 85,
-          quality = SignalQuality.GOOD
+        DesktopWidgets(
+          cpuUsage = 24f,
+          ramUsageMb = 640,
+          activeWindowsCount = 3,
+          onOpenCopilot = {},
+          onOpenTaskManager = {}
         )
       }
     }
 
-    composeTestRule.onRoot().captureRoboImage(filePath = "src/test/screenshots/greeting.png")
+    composeTestRule.onRoot().captureRoboImage(filePath = "src/test/screenshots/desktop_widgets.png")
   }
 }
-

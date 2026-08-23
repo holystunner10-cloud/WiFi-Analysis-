@@ -3,7 +3,7 @@
     <item
         android:width="66dp"
         android:height="66dp"
-        android:drawable="@drawable/ic_wifi_app_logo"
+        android:drawable="@drawable/pc_desktop_icon_1787493404415"
         android:gravity="center" />
 </layer-list>
 

@@ -1,6 +1,6 @@
 {
-  "name": "WiFi Analyzer",
-  "description": "Comprehensive Wi-Fi connection analyzer, channel spectrum visualizer, signal meter, and network diagnostics tool.",
+  "name": "Holy Stunner PC",
+  "description": "Full-featured Holy Stunner PC desktop OS launcher for Android with landscape optimization, floating multi-window manager, Holy Stunner AI, PC app store, virtual file system, and developer tools.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
